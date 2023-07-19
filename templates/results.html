@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+<p>Вы отправили следующие данные:</p>
+<p>{{ the_results }}</p>
+
+<h2>График</h2>
+<p>{{ graphJSON|safe }}</p>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method="POST" action="/" >
+    <textarea name="text" rows="5" cols="50"></textarea>
+    <p>Нажмите на кнопку, чтобы начать:</p>
+    <input type="submit" value="Анализировать">
+</form>
+
+{% endblock %}
